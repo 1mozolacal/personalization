@@ -37,9 +37,9 @@ export PS1="${debian_chroot:+($debian_chroot)}\e[1;36mLORD CALVIN(\u)\e[0;29m@\e
 #Default => ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ 
 
 #LS Colour
-colours="di=4;34:*=;32:*.calvin=;93"
+colours="no=00:fi=97:di=4;34:ln=36:or=31:ex=31:*.calvin=93;05;46:"
 export LS_COLOR=$colours
-
+# http://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors
 
 ###MISC commands
 
