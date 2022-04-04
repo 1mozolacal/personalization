@@ -1,6 +1,12 @@
 #!/bin/bash
 #Calvin's linux Customization for SCS Moon server
 
+#default sciene stuff
+export ORDENV_SITE_PROFILE=20210806
+export ORDENV_COMM_PROFILE=
+export ORDENV_GROUP_PROFILE=
+. /fs/ssm/main/env/ordenv-boot-20201118.sh
+
 
 # Vtune stuff
 . ssmuse-sh -x main/opt/intelcomp/intelpsxe-cluster-19.0.3.199
