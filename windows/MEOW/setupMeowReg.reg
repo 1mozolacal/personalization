@@ -1,9 +1,14 @@
 Windows Registry Editor Version 5.00
 
 ; Add MEOW to the Background of home screen
-[Computer\HKEY_CLASSES_ROOT\DesktopBackground\Shell\MEOW]
+; Make sure path are back slack protected
+;     Example C:\\Users\\mozol\\Documents\\git\\personalization\\windows\\MEOW\\icons\\cat.ico
+; Make sure file for python has quotes that are backslash protected
+;     Example "py \"<you add path>\""
+;     Example "python \"<you add path>\""
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\MEOW]
 @="MEOW"
-Icon=""
-Position="Top"
-[Computer\HKEY_CLASSES_ROOT\DesktopBackground\Shell\MEOW\command]
-@="python <path to meow py script>"
+"Icon"="<add path to icon>"
+"Position"="Top"
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\MEOW\command]
+@="py <path to meow py script>"

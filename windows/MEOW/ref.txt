@@ -1,3 +1,7 @@
 
 python window minimization
 https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-showwindow?redirectedfrom=MSDN
+
+Know bug:
+applicaiton not found
+-> try changing "ptyhon" to "py" or vis versa

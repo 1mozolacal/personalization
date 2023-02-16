@@ -1,0 +1,5 @@
+
+To Change the starting directory of the CMD:
+Navigate to directory (create it is it doesn't exist) 'HKEY_CURRENT_USER\Software\Microsoft\Command Processor'
+Create a key value pair of
+    Autorun: cd %userprofile%

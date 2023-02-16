@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Add MEOW to the Background of home screen
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\MEOW]
+@="MEOW"
+"Icon"="C:\\Users\\mozol\\Documents\\git\\personalization\\windows\\MEOW\\icons\\cat.ico"
+"Position"="Top"
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\MEOW\command]
+@="py \"C:\\Users\\mozol\\Documents\\git\\personalization\\windows\\MEOW\\MEOW.py\""
